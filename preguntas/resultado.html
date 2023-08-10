@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../preguntas/style/resultado.css">
+    <link rel="shortcut icon" href="../kahoot.ico" type="image/x-icon">
+    <title>Resultados</title>
+</head>
+<body>
+    <div class="container">
+        <h1>scoreboard</h1>
+
+        <p>Nombre ingresado: <span id="nombre"></span></p>
+        <p>Preguntas correctas: <span id="preguntas-correctas"></span></p>
+        <p>Preguntas incorrectas: <span id="preguntas-incorrectas"></span></p>
+
+        <table class="scoreboard">
+            <thead class="scoreboard-header">
+                <tr>
+                    <th>Pregunta</th>
+                </tr>
+            </thead>
+            <tbody id="resultados-container">
+                <!-- Los resultados de las preguntas se agregarán aquí -->
+            </tbody>
+        </table>
+
+        <div class="button-container">
+            <a href="../index.html" class="button">Volver a jugar</a>
+        </div>
+    </div>
+
+    <script src="../preguntas/js/resultado.js"></script>
+</body>
+</html>
